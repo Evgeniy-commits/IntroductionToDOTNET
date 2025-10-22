@@ -43,13 +43,13 @@ namespace Game
 				Write(simbol, x, y);
 			}
 		}
-		public static void Write(string simbol, int x, int y)
+		static void Write(string simbol, int x, int y)
 		{
 			if (x >= 0 && y >= 0)
 				{
 					Console.Clear();
 					Console.SetCursorPosition(x, y);
-					Console.Write(simbol);
+					Console.WriteLine(simbol);
 				}
 		}
 			
