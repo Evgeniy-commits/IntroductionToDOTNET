@@ -18,7 +18,6 @@ namespace Game
 			Write (simbol, x, y);
 			while (Console.ReadKey().Key != ConsoleKey.Escape)
 			{
-
 				//switch (Console.ReadKey().Key)
 				//{
 				//	case ConsoleKey.LeftArrow:
